@@ -11,7 +11,7 @@ public class TwoSum {
         System.out.println(Arrays.toString(result));
     }
 
-
+    //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] nums, int target) {
             Map<Integer, Integer> map = new HashMap<>();
@@ -25,6 +25,6 @@ public class TwoSum {
             throw new IllegalArgumentException("No two sum solution");
         }
     }
-
+//leetcode submit region end(Prohibit modification and deletion)
 
 }
