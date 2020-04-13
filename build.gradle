@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'idea'
 }
 
 group 'top.abosen'
@@ -13,11 +14,16 @@ repositories {
     mavenCentral()
 }
 
-compileJava{
+compileJava {
     // 用于支持 text block
 //    options.compilerArgs << "--enable-preview"
 }
 
+idea {
+    module {
+        excludeDirs += file("src/main/java/leetcode/editor/cn/doc")
+    }
+}
 dependencies {
 
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.3'
