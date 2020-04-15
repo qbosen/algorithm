@@ -1,12 +1,12 @@
 package leetcode.editor.cn;
 
-import util.CharArrayUtil;
+import util.CharUtil;
 
 public class NumberOfIslands {
     public static void main(String[] args) {
         Solution solution = new NumberOfIslands().new Solution();
         String input = "[[\"1\",\"1\",\"1\"],[\"0\",\"1\",\"0\"],[\"1\",\"1\",\"1\"]]";
-        char[][] param = CharArrayUtil.parse2D4String(input);
+        char[][] param = CharUtil.parse2D4String(input);
         System.out.println(solution.numIslands(param));
     }
 

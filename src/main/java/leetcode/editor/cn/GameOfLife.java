@@ -3,13 +3,13 @@ package leetcode.editor.cn;
 // 289
 // [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
 
-import util.IntArrayUtil;
+import util.IntUtil;
 
 import java.util.Arrays;
 
 public class GameOfLife {
     public static void run(Solution solution, String expect, String board) {
-        int[][] board_ = IntArrayUtil.parse2DIntArray(board);
+        int[][] board_ = IntUtil.parse2DIntArray(board);
         solution.gameOfLife(board_);
         System.out.println(expect + "=" + Arrays.deepToString(board_));
     }

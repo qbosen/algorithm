@@ -1,27 +1,27 @@
 package leetcode.editor.cn;
 
-import util.IntArrayUtil;
+import util.IntUtil;
 
 // 41
 // 缺失的第一个正数
 public class FirstMissingPositive {
     public static void main(String[] args) {
         Solution solution = new FirstMissingPositive().new Solution();
-        int[] ints = IntArrayUtil.parse1DIntArray("[1,2,0]");
+        int[] ints = IntUtil.parse1DIntArray("[1,2,0]");
         System.out.println(solution.firstMissingPositive(ints) + "=3");
-        ints = IntArrayUtil.parse1DIntArray("[3,4,-1,1]");
+        ints = IntUtil.parse1DIntArray("[3,4,-1,1]");
         System.out.println(solution.firstMissingPositive(ints) + "=2");
-        ints = IntArrayUtil.parse1DIntArray("[7,8,9,11,12]");
+        ints = IntUtil.parse1DIntArray("[7,8,9,11,12]");
         System.out.println(solution.firstMissingPositive(ints) + "=1");
-        ints = IntArrayUtil.parse1DIntArray("[1]");
+        ints = IntUtil.parse1DIntArray("[1]");
         System.out.println(solution.firstMissingPositive(ints) + "=2");
-        ints = IntArrayUtil.parse1DIntArray("[1,2,3]");
+        ints = IntUtil.parse1DIntArray("[1,2,3]");
         System.out.println(solution.firstMissingPositive(ints) + "=4");
-        ints = IntArrayUtil.parse1DIntArray("[1,1000]");
+        ints = IntUtil.parse1DIntArray("[1,1000]");
         System.out.println(solution.firstMissingPositive(ints) + "=2");
-        ints = IntArrayUtil.parse1DIntArray("[2,1,1000]");
+        ints = IntUtil.parse1DIntArray("[2,1,1000]");
         System.out.println(solution.firstMissingPositive(ints) + "=3");
-        ints = IntArrayUtil.parse1DIntArray("[1,0,3,3,0,2]");
+        ints = IntUtil.parse1DIntArray("[1,0,3,3,0,2]");
         System.out.println(solution.firstMissingPositive(ints) + "=4");
     }
 

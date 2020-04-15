@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * @author qiubaisen
  * @date 2020/4/9
  */
-public class StringListUtil {
+public class StringUtil {
     public static List<String> parse1DList(String input) {
         String[] array = CommonUtil.parse(input, String[].class);
         return Arrays.asList(array);

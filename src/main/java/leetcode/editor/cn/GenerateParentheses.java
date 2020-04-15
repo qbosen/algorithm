@@ -4,7 +4,7 @@ package leetcode.editor.cn;
 // 3
 
 import org.junit.Assert;
-import util.StringListUtil;
+import util.StringUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,18 +12,18 @@ import java.util.List;
 public class GenerateParentheses {
     public static void run(Solution solution, List<String> expect, int n) {
         List<String> result = solution.generateParenthesis(n);
-        Assert.assertTrue(StringListUtil.unOrderEquals1DList(result, expect));
+        Assert.assertTrue(StringUtil.unOrderEquals1DList(result, expect));
     }
 
     public static void main(String[] args) {
         Solution solution = new GenerateParentheses().new Solution();
-        List<String> expect = StringListUtil.parse1DList("[\n" +
-                                                         "       \"((()))\",\n" +
-                                                         "       \"(()())\",\n" +
-                                                         "       \"(())()\",\n" +
-                                                         "       \"()(())\",\n" +
-                                                         "       \"()()()\"\n" +
-                                                         "     ]");
+        List<String> expect = StringUtil.parse1DList("[\n" +
+                                                     "       \"((()))\",\n" +
+                                                     "       \"(()())\",\n" +
+                                                     "       \"(())()\",\n" +
+                                                     "       \"()(())\",\n" +
+                                                     "       \"()()()\"\n" +
+                                                     "     ]");
         run(solution, expect, 3);
     }
 

@@ -7,16 +7,21 @@ group 'top.abosen'
 version '1.0'
 
 // 手动设置 preview 版本
-sourceCompatibility = 1.13
+sourceCompatibility = '1.14--enable-preview'
 
 repositories {
     maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
     mavenCentral()
 }
 
-compileJava {
-    // 用于支持 text block
-//    options.compilerArgs << "--enable-preview"
+tasks.withType(JavaCompile) {
+    options.compilerArgs += "--enable-preview"
+}
+tasks.withType(Test) {
+    jvmArgs += "--enable-preview"
+}
+tasks.withType(JavaExec) {
+    jvmArgs += "--enable-preview"
 }
 
 idea {

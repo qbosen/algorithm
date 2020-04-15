@@ -3,11 +3,11 @@ package leetcode.editor.cn;
 // 42
 // [0,1,0,2,1,0,1,3,2,1,2,1]
 
-import util.IntArrayUtil;
+import util.IntUtil;
 
 public class TrappingRainWater {
     public static void run(Solution solution, int expect, String height) {
-        int[] height_ = IntArrayUtil.parse1DIntArray(height);
+        int[] height_ = IntUtil.parse1DIntArray(height);
         int result = solution.trap(height_);
         System.out.println(expect + "=" + result);
     }

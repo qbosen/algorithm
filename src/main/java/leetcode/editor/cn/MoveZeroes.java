@@ -1,13 +1,13 @@
 package leetcode.editor.cn;
 
-import util.IntArrayUtil;
+import util.IntUtil;
 
 import java.util.Arrays;
 
 public class MoveZeroes {
     public static void main(String[] args) {
         Solution solution = new MoveZeroes().new Solution();
-        int[] ints = IntArrayUtil.parse1DIntArray("[0,1,0,3,12]");
+        int[] ints = IntUtil.parse1DIntArray("[0,1,0,3,12]");
         solution.moveZeroes(ints);
         System.out.println(Arrays.toString(ints));
     }

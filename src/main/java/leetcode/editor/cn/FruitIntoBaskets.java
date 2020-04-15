@@ -2,22 +2,22 @@ package leetcode.editor.cn;
 // 904
 // 水果成篮
 
-import util.IntArrayUtil;
+import util.IntUtil;
 
 import java.util.HashMap;
 
 public class FruitIntoBaskets {
     public static void main(String[] args) {
         Solution solution = new FruitIntoBaskets().new Solution();
-        int[] ints = IntArrayUtil.parse1DIntArray("[3,3,3,1,2,1,1,2,3,3,4]");
+        int[] ints = IntUtil.parse1DIntArray("[3,3,3,1,2,1,1,2,3,3,4]");
         System.out.println(solution.totalFruit(ints) + "=5");
-        ints = IntArrayUtil.parse1DIntArray("[1,2,3,2,2]");
+        ints = IntUtil.parse1DIntArray("[1,2,3,2,2]");
         System.out.println(solution.totalFruit(ints) + "=4");
-        ints = IntArrayUtil.parse1DIntArray("[0,1,2,2]");
+        ints = IntUtil.parse1DIntArray("[0,1,2,2]");
         System.out.println(solution.totalFruit(ints) + "=3");
-        ints = IntArrayUtil.parse1DIntArray("[1,2,1]");
+        ints = IntUtil.parse1DIntArray("[1,2,1]");
         System.out.println(solution.totalFruit(ints) + "=3");
-        ints = IntArrayUtil.parse1DIntArray("[1,0,1,4,1,4,1,2,3]");
+        ints = IntUtil.parse1DIntArray("[1,0,1,4,1,4,1,2,3]");
         System.out.println(solution.totalFruit(ints) + "=5");
     }
 
