@@ -34,6 +34,6 @@ public class IntUtilTest {
     @Test
     public void parse1DInt2ListNode(){
         ListNode listNode = IntUtil.parse1DInt2ListNode("[7,2,4,3]");
-
+        System.out.println(listNode);
     }
 }
