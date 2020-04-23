@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'idea'
+    id "org.jetbrains.kotlin.jvm" version "1.3.70"
 }
 
 group 'top.abosen'
@@ -24,18 +25,35 @@ tasks.withType(JavaExec) {
     jvmArgs += "--enable-preview"
 }
 
+
+// 混用source目录
+sourceSets {
+    main.kotlin.srcDirs += 'src/main/java'
+    main.java.srcDirs += 'src/main/java'
+}
+
+compileKotlin{
+    kotlinOptions {
+        freeCompilerArgs += ["-Xjsr305=strict"]
+        jvmTarget = "1.8"
+    }
+}
+
+
 idea {
     module {
         excludeDirs += file("src/main/java/leetcode/editor/cn/doc")
     }
 }
 dependencies {
-
+    // jackson
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.3'
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.10.3'
+    // 测试
     implementation group: 'junit', name: 'junit', version: '4.12'
     testImplementation group: 'junit', name: 'junit', version: '4.12'
-
-    testImplementation 'org.hamcrest:hamcrest:2.2'
     implementation 'org.hamcrest:hamcrest:2.2'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+    // kotlin 标准库
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
