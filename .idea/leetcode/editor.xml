@@ -195,6 +195,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeKSortedLists.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeKSortedLists.kt" />
+              <option name="questionId" value="23" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MoveZeroes.java">
           <value>
             <LeetcodeEditor>
