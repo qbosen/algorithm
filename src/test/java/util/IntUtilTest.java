@@ -1,8 +1,8 @@
 package util;
 
+import org.junit.Assert;
 import org.junit.Test;
 import struct.ListNode;
-import struct.TreeNode;
 
 import java.util.Arrays;
 
@@ -33,13 +33,13 @@ public class IntUtilTest {
     }
 
     @Test
-    public void parse1DInt2ListNode(){
+    public void parse1DInt2ListNode() {
         ListNode listNode = IntUtil.parse1DInt2ListNode("[7,2,4,3]");
         System.out.println(listNode);
     }
 
     @Test
-    public void parse1DInt2TreeNode( ){
+    public void parse1DInt2TreeNode() {
         String[] testCase = {
                 "[1,2,3,null,5,null,4]",
                 "[3,1,4,null,null,2]",
@@ -50,6 +50,18 @@ public class IntUtilTest {
         for (String input : testCase) {
             TreePrinter.print(IntUtil.parse1DInt2TreeNode(input));
         }
+    }
 
+    @Test
+    public void parse2DInt2ListNodeArray() {
+        ListNode[] listNodes = IntUtil.parse2DInt2ListNodeArray("[[1,4,5],[1,3,4],[2,6]]");
+        System.out.println(Arrays.deepToString(listNodes));
+    }
+
+    @Test
+    public void testListNodeEquals() {
+        ListNode listNode1 = IntUtil.parse1DInt2ListNode("[7,2,4,3]");
+        ListNode listNode2 = IntUtil.parse1DInt2ListNode("[7,2,4,3]");
+        Assert.assertEquals(listNode1, listNode2);
     }
 }

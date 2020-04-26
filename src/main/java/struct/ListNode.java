@@ -1,5 +1,7 @@
 package struct;
 
+import java.util.Objects;
+
 /**
  * @author qiubaisen
  * @date 2020/4/14
@@ -22,5 +24,23 @@ public class ListNode {
         }
         sb.append("]");
         return sb.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ListNode listNode = (ListNode) o;
+
+        if (val != listNode.val) return false;
+        return Objects.equals(next, listNode.next);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = val;
+        result = 31 * result + (next != null ? next.hashCode() : 0);
+        return result;
     }
 }
