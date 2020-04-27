@@ -51,6 +51,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CountOfSmallerNumbersAfterSelf.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CountOfSmallerNumbersAfterSelf.kt" />
+              <option name="questionId" value="315" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CountTheRepetitions.java">
           <value>
             <LeetcodeEditor>
@@ -272,6 +280,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReduceArraySizeToTheHalf.java" />
               <option name="questionId" value="1464" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReversePairs.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReversePairs.kt" />
+              <option name="questionId" value="493" />
             </LeetcodeEditor>
           </value>
         </entry>
