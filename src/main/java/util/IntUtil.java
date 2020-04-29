@@ -3,6 +3,11 @@ package util;
 import struct.ListNode;
 import struct.TreeNode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import static util.CommonUtil.parse;
 
 /**
@@ -17,6 +22,12 @@ public class IntUtil {
 
     public static int[][] parse2DIntArray(String input) {
         return parse(input, int[][].class);
+    }
+
+    public static List<List<Integer>> parse2DIntList(String input){
+        return Arrays.stream(parse2DIntArray(input))
+                .map(ints -> Arrays.stream(ints).boxed().collect(Collectors.toList()))
+                .collect(Collectors.toList());
     }
 
     public static ListNode parse1DInt2ListNode(String input) {

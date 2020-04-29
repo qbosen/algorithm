@@ -5,6 +5,7 @@ import org.junit.Test;
 import struct.ListNode;
 
 import java.util.Arrays;
+import java.util.List;
 
 import static util.IntUtil.parse1DIntArray;
 import static util.IntUtil.parse2DIntArray;
@@ -63,5 +64,12 @@ public class IntUtilTest {
         ListNode listNode1 = IntUtil.parse1DInt2ListNode("[7,2,4,3]");
         ListNode listNode2 = IntUtil.parse1DInt2ListNode("[7,2,4,3]");
         Assert.assertEquals(listNode1, listNode2);
+    }
+
+    @Test
+    public void test2DList(){
+        String input = "[[2,10],[3,15],[7,12],[12,0],[15,10],[20,8],[24,0]]";
+        List<List<Integer>> lists = IntUtil.parse2DIntList(input);
+        System.out.println(lists);
     }
 }
