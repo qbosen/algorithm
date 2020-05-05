@@ -1,6 +1,7 @@
 package util
 
 import struct.ListNode
+import struct.TreeNode
 
 /**
  * @author qiubaisen
@@ -14,5 +15,6 @@ fun String.toListNode(): ListNode = IntUtil.parse1DInt2ListNode(this)
 fun String.to2DCharArray(): Array<CharArray> = CharUtil.parse2D4String(this)
 fun String.toStringList(): List<String> = StringUtil.parse1DList(this)
 fun String.toListNodeArray(): Array<ListNode?> = IntUtil.parse2DInt2ListNodeArray(this)
+fun String.toTreeNode(): TreeNode = IntUtil.parse1DInt2TreeNode(this)
 
 fun Int.factorial() = (1..this).reduce { a, b -> a * b }
