@@ -235,6 +235,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LowestCommonAncestorOfABinaryTree.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LowestCommonAncestorOfABinaryTree.kt" />
+              <option name="questionId" value="236" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximalSquare.kt">
           <value>
             <LeetcodeEditor>
