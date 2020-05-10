@@ -18,3 +18,14 @@ fun String.toListNodeArray(): Array<ListNode?> = IntUtil.parse2DInt2ListNodeArra
 fun String.toTreeNode(): TreeNode = IntUtil.parse1DInt2TreeNode(this)
 
 fun Int.factorial() = (1..this).reduce { a, b -> a * b }
+
+fun TreeNode.print() = TreePrinter.print(this)
+fun TreeNode.findNode(value: Int): TreeNode? {
+    fun dfs(node: TreeNode?): TreeNode? = when {
+        node == null -> null
+        node.`val` == value -> node
+        else -> dfs(node.left) ?: dfs(node.right)
+    }
+
+    return dfs(this)
+}
