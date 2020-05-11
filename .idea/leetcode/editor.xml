@@ -32,7 +32,7 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeRightSideView.java" />
               <option name="questionId" value="199" />
-            </LeetcodeEditor>
+            </LeetcodeEditor>23
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CoinLcci.kt">
@@ -352,6 +352,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/Permutations.kt" />
               <option name="questionId" value="46" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PowxN.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PowxN.kt" />
+              <option name="questionId" value="50" />
             </LeetcodeEditor>
           </value>
         </entry>
