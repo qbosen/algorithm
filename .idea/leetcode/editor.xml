@@ -32,7 +32,7 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeRightSideView.java" />
               <option name="questionId" value="199" />
-            </LeetcodeEditor>23
+            </LeetcodeEditor>
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CoinLcci.kt">
@@ -288,6 +288,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeTwoSortedLists.kt" />
               <option name="questionId" value="21" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinStack.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinStack.kt" />
+              <option name="questionId" value="155" />
             </LeetcodeEditor>
           </value>
         </entry>
