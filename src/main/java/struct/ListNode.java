@@ -1,5 +1,7 @@
 package struct;
 
+import org.jetbrains.annotations.Nullable;
+
 import java.util.Objects;
 
 /**
@@ -8,6 +10,7 @@ import java.util.Objects;
  */
 public class ListNode {
     public int val;
+    @Nullable
     public ListNode next;
 
     public ListNode(int x) {
