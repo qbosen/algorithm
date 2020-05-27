@@ -603,6 +603,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SubarraySumsDivisibleByK.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SubarraySumsDivisibleByK.kt" />
+              <option name="questionId" value="1016" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SubtreeOfAnotherTree.kt">
           <value>
             <LeetcodeEditor>
