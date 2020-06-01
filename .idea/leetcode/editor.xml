@@ -259,11 +259,11 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LargestRectangleInHistogram.kt">
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KidsWithTheGreatestNumberOfCandies.kt">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LargestRectangleInHistogram.kt" />
-              <option name="questionId" value="84" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KidsWithTheGreatestNumberOfCandies.kt" />
+              <option name="questionId" value="1528" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -648,14 +648,6 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SuperEggDrop.java" />
               <option name="questionId" value="923" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SymmetricTree.kt">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SymmetricTree.kt" />
-              <option name="questionId" value="101" />
             </LeetcodeEditor>
           </value>
         </entry>
