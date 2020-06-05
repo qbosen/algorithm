@@ -603,6 +603,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.kt" />
+              <option name="questionId" value="100293" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SingleNumber.kt">
           <value>
             <LeetcodeEditor>
@@ -624,6 +632,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SingleNumberIii.kt" />
               <option name="questionId" value="260" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SpiralMatrix.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SpiralMatrix.kt" />
+              <option name="questionId" value="54" />
             </LeetcodeEditor>
           </value>
         </entry>
