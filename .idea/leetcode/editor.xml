@@ -563,6 +563,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RecoverATreeFromPreorderTraversal.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RecoverATreeFromPreorderTraversal.kt" />
+              <option name="questionId" value="1093" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReduceArraySizeToTheHalf.java">
           <value>
             <LeetcodeEditor>
