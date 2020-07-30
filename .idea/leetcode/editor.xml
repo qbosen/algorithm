@@ -283,6 +283,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/IntegerBreak.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/IntegerBreak.kt" />
+              <option name="questionId" value="343" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/IntersectionLcci.java">
           <value>
             <LeetcodeEditor>
@@ -944,6 +952,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/XuanZhuanShuZuDeZuiXiaoShuZiLcof.kt" />
               <option name="questionId" value="100278" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/XunBao.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/XunBao.kt" />
+              <option name="questionId" value="1000093" />
             </LeetcodeEditor>
           </value>
         </entry>
