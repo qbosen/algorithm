@@ -827,6 +827,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SmallestRangeCoveringElementsFromKLists.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SmallestRangeCoveringElementsFromKLists.kt" />
+              <option name="questionId" value="632" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SpiralMatrix.kt">
           <value>
             <LeetcodeEditor>
