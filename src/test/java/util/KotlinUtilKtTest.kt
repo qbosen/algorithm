@@ -1,6 +1,8 @@
 package util
 
 import org.junit.Test
+import struct.Node
+import kotlin.streams.toList
 
 
 /**
@@ -15,6 +17,12 @@ internal class KotlinUtilKtTest {
         node.findNode(3)!!.print()
         node.findNode(1)!!.print()
         node.findNode(5)!!.print()
-        node.findNode(-1)?: println("not found!!")
+        node.findNode(-1) ?: println("not found!!")
+    }
+
+    @Test
+    fun toIndexValUndirectedGraphTest() {
+        val node = "[[2,4],[1,3],[2,4],[1,3]]".toIndexValUndirectedGraph()
+        node.print()
     }
 }

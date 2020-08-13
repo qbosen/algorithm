@@ -1,7 +1,9 @@
 package util
 
 import struct.ListNode
+import struct.Node
 import struct.TreeNode
+import kotlin.streams.toList
 
 /**
  * @author qiubaisen
@@ -16,6 +18,19 @@ fun String.to2DCharArray(): Array<CharArray> = CharUtil.parse2D4String(this)
 fun String.toStringList(): List<String> = StringUtil.parse1DList(this)
 fun String.toListNodeArray(): Array<ListNode?> = IntUtil.parse2DInt2ListNodeArray(this)
 fun String.toTreeNode(): TreeNode = IntUtil.parse1DInt2TreeNode(this)
+fun String.toIndexValUndirectedGraph(): Node {
+    val data = IntUtil.parse2DIntArray(this)
+    val map = HashMap<Int, Node>()
+
+    // 值就是idx且唯一
+    fun getNode(idx: Int): Node = map.compute(idx) { k, v ->
+        v ?: Node().apply { `val` = k;neighbors = ArrayList() }
+    }!!
+    data.forEachIndexed { i, v ->
+        getNode(i + 1).neighbors = v.map { getNode(it) }
+    }
+    return getNode(1)
+}
 
 fun Int.factorial() = (1..this).reduce { a, b -> a * b }
 
@@ -28,4 +43,21 @@ fun TreeNode.findNode(value: Int): TreeNode? {
     }
 
     return dfs(this)
+}
+
+fun Node.print() {
+    val visited = HashSet<Int>()
+    var toVisit = HashSet<Node>()
+    toVisit.add(this)
+    while (toVisit.isNotEmpty()) {
+        val nextVisit = HashSet<Node>()
+        toVisit.forEach { toV ->
+            print("[${toV.`val`}] => ")
+            toV.neighbors.stream().peek { neib ->
+                if (!visited.contains(neib.`val`)) nextVisit.add(neib)
+            }.map { it.`val` }.toList().let(::println)
+            visited.add(toV.`val`)
+        }
+        toVisit = nextVisit
+    }
 }
