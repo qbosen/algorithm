@@ -603,6 +603,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumDepthOfBinaryTree.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumDepthOfBinaryTree.kt" />
+              <option name="questionId" value="111" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumPathSum.kt">
           <value>
             <LeetcodeEditor>
