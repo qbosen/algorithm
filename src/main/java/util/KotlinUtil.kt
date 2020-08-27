@@ -16,6 +16,7 @@ fun String.to2DIntList(): List<List<Int>> = IntUtil.parse2DIntList(this)
 fun String.toListNode(): ListNode = IntUtil.parse1DInt2ListNode(this)
 fun String.to2DCharArray(): Array<CharArray> = CharUtil.parse2D4String(this)
 fun String.toStringList(): List<String> = StringUtil.parse1DList(this)
+fun String.to2DStringList(): List<List<String>> = StringUtil.parse2DList(this)
 fun String.toListNodeArray(): Array<ListNode?> = IntUtil.parse2DInt2ListNodeArray(this)
 fun String.toTreeNode(): TreeNode = IntUtil.parse1DInt2TreeNode(this)
 fun String.toIndexValUndirectedGraph(): Node {

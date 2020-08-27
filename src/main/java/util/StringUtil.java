@@ -1,5 +1,8 @@
 package util;
 
+import com.fasterxml.jackson.databind.JavaType;
+import com.fasterxml.jackson.databind.type.TypeFactory;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -16,6 +19,13 @@ public class StringUtil {
     public static List<String> parse1DList(String input) {
         String[] array = CommonUtil.parse(input, String[].class);
         return Arrays.asList(array);
+    }
+
+    public static List<List<String>> parse2DList(String input) {
+        TypeFactory typeFactory = TypeFactory.defaultInstance();
+        JavaType generic = typeFactory.constructCollectionType(List.class, String.class);
+        JavaType javaType = typeFactory.constructCollectionType(List.class, generic);
+        return CommonUtil.parse(input, javaType);
     }
 
     public static boolean unOrderEquals1DList(List<String> a, List<String> b) {

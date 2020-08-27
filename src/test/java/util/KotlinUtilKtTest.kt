@@ -25,4 +25,10 @@ internal class KotlinUtilKtTest {
         val node = "[[2,4],[1,3],[2,4],[1,3]]".toIndexValUndirectedGraph()
         node.print()
     }
+
+    @Test
+    fun test2DStringList(){
+        println("""[["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]]""".to2DStringList())
+    }
+
 }
