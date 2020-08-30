@@ -939,6 +939,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ShortestPalindrome.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ShortestPalindrome.kt" />
+              <option name="questionId" value="214" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ShortestUnsortedContinuousSubarray.java">
           <value>
             <LeetcodeEditor>
