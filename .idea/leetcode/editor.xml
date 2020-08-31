@@ -427,6 +427,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KeysAndRooms.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KeysAndRooms.kt" />
+              <option name="questionId" value="871" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KidsWithTheGreatestNumberOfCandies.kt">
           <value>
             <LeetcodeEditor>
@@ -872,6 +880,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseWordsInAString.java" />
               <option name="questionId" value="151" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseWordsInAStringIii.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseWordsInAStringIii.kt" />
+              <option name="questionId" value="557" />
             </LeetcodeEditor>
           </value>
         </entry>
