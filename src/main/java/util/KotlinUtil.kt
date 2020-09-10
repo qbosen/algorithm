@@ -1,5 +1,8 @@
 package util
 
+import org.hamcrest.Matcher
+import org.hamcrest.Matchers
+import org.hamcrest.Matchers.*
 import struct.ListNode
 import struct.Node
 import struct.TreeNode
@@ -61,4 +64,12 @@ fun Node.print() {
         }
         toVisit = nextVisit
     }
+}
+
+fun <T> listMatcher(expect: List<T>, matcher: (T) -> Matcher<T> = Matchers::equalTo): Matcher<List<T>> {
+    return allOf(hasSize(expect.size), containsInAnyOrder(expect.map { matcher(it) }))
+}
+
+fun <T> list2DMatcher(expect: List<List<T>>): Matcher<List<List<T>>> {
+    return listMatcher(expect) { list -> listMatcher(list) }
 }
