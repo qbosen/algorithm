@@ -1,8 +1,6 @@
 package util
 
 import org.junit.Test
-import struct.Node
-import kotlin.streams.toList
 
 
 /**
@@ -27,8 +25,23 @@ internal class KotlinUtilKtTest {
     }
 
     @Test
-    fun test2DStringList(){
+    fun test2DStringList() {
         println("""[["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]]""".to2DStringList())
     }
 
+    @Test
+    fun `测试null压缩的层序二叉树构建`() {
+        val testCase = listOf(
+                "[1,2,null,null,3,4]",
+                "[]","[null]",
+                "[1,2,3,null,5,null,4]",
+                "[3,1,4,null,null,2]",
+                "[3,1,null,null,2]",
+                "[5,3,6,2,4,null,null,1]",
+                "[1,null,2,null,3,4,5]",
+                "[1,null,2,null,3,4,5,6]",
+                "[0,0,null,0,null,0,null,null,0]",
+        )
+        testCase.forEach { it.toTreeNode2()?.print() }
+    }
 }

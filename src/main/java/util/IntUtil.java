@@ -3,9 +3,10 @@ package util;
 import struct.ListNode;
 import struct.TreeNode;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.stream.Collectors;
 
 import static util.CommonUtil.parse;
@@ -24,7 +25,7 @@ public class IntUtil {
         return parse(input, int[][].class);
     }
 
-    public static List<List<Integer>> parse2DIntList(String input){
+    public static List<List<Integer>> parse2DIntList(String input) {
         return Arrays.stream(parse2DIntArray(input))
                 .map(ints -> Arrays.stream(ints).boxed().collect(Collectors.toList()))
                 .collect(Collectors.toList());
@@ -64,6 +65,36 @@ public class IntUtil {
             node.right = new TreeNode(data[r]);
             fillChildTree(data, node.right, r);
         }
+    }
+
+    public static TreeNode parse1DInt2TreeNode2(String input) {
+        Integer[] data = parse(input, Integer[].class);
+        if (data.length == 0 || data[0] == null) return null;
+        Queue<TreeNode> currentLayer = new LinkedList<>();
+        TreeNode root = new TreeNode(data[0]);
+        currentLayer.offer(root);
+
+        fillChildTree2(data, currentLayer, 1);
+        return root;
+    }
+
+    private static void fillChildTree2(Integer[] data, Queue<TreeNode> currentLayer, int idx) {
+        if (currentLayer.isEmpty()) return;
+        Queue<TreeNode> nextLayer = new LinkedList<>();
+        for (; idx < data.length && !currentLayer.isEmpty(); idx += 2) {
+            TreeNode node = currentLayer.poll();
+            if (data[idx] != null) {
+                TreeNode left = new TreeNode(data[idx]);
+                nextLayer.offer(left);
+                node.left = left;
+            }
+            if (idx + 1 < data.length && data[idx + 1] != null) {
+                TreeNode right = new TreeNode(data[idx + 1]);
+                nextLayer.offer(right);
+                node.right = right;
+            }
+        }
+        fillChildTree2(data, nextLayer, idx);
     }
 
     public static ListNode[] parse2DInt2ListNodeArray(String input) {
