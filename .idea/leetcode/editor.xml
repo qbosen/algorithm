@@ -331,6 +331,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindModeInBinarySearchTree.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindModeInBinarySearchTree.kt" />
+              <option name="questionId" value="501" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindTheDuplicateNumber.kt">
           <value>
             <LeetcodeEditor>
@@ -672,6 +680,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeKSortedLists.kt" />
               <option name="questionId" value="23" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeTwoBinaryTrees.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeTwoBinaryTrees.kt" />
+              <option name="questionId" value="617" />
             </LeetcodeEditor>
           </value>
         </entry>
