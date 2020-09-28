@@ -3,6 +3,7 @@ package util
 import org.hamcrest.Matcher
 import org.hamcrest.Matchers
 import org.hamcrest.Matchers.*
+import struct.LinkedTreeNode
 import struct.ListNode
 import struct.Node
 import struct.TreeNode
