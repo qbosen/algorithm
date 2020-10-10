@@ -10,13 +10,13 @@ import util.to1DIntArray
 
 fun main() {
     val result = LinkedListCycle.Solution()::hasCycle
-    assertThat(result(build("[3,2,0,-4]", 1)), equalTo(true))
-    assertThat(result(build("[1,2]", 1)), equalTo(true))
-    assertThat(result(build("[1]", -1)), equalTo(false))
+    assertThat(result(buildListCycle("[3,2,0,-4]", 1)), equalTo(true))
+    assertThat(result(buildListCycle("[1,2]", 1)), equalTo(true))
+    assertThat(result(buildListCycle("[1]", -1)), equalTo(false))
 
 }
 
-private fun build(nodes: String, cycle: Int): ListNode? {
+fun buildListCycle(nodes: String, cycle: Int): ListNode? {
     val dummy = ListNode(-1)
     val last = nodes.to1DIntArray().fold(dummy) { node, i ->
         ListNode(i).also { node.next = it }
