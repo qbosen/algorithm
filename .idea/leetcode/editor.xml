@@ -1307,6 +1307,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SquaresOfASortedArray.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SquaresOfASortedArray.kt" />
+              <option name="questionId" value="1019" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/StringToIntegerAtoi.java">
           <value>
             <LeetcodeEditor>
