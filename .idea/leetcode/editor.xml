@@ -1155,6 +1155,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/QueueReconstructionByHeight.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/QueueReconstructionByHeight.kt" />
+              <option name="questionId" value="406" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RangeSumQueryMutable.kt">
           <value>
             <LeetcodeEditor>
