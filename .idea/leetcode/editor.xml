@@ -387,6 +387,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.kt" />
+              <option name="questionId" value="34" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindInMountainArray.kt">
           <value>
             <LeetcodeEditor>
