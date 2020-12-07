@@ -1443,6 +1443,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ScoreAfterFlippingMatrix.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ScoreAfterFlippingMatrix.kt" />
+              <option name="questionId" value="891" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SearchInRotatedSortedArray.kt">
           <value>
             <LeetcodeEditor>
