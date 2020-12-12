@@ -371,14 +371,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/Dota2Senate.kt">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/Dota2Senate.kt" />
-              <option name="questionId" value="649" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/EditDistance.java">
           <value>
             <LeetcodeEditor>
@@ -720,14 +712,6 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LargestTriangleArea.java" />
               <option name="questionId" value="830" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LemonadeChange.kt">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LemonadeChange.kt" />
-              <option name="questionId" value="890" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1459,14 +1443,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ScoreAfterFlippingMatrix.kt">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ScoreAfterFlippingMatrix.kt" />
-              <option name="questionId" value="891" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SearchInRotatedSortedArray.kt">
           <value>
             <LeetcodeEditor>
@@ -1600,14 +1576,6 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SplitArrayIntoConsecutiveSubsequences.kt" />
               <option name="questionId" value="659" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SplitArrayIntoFibonacciSequence.kt">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SplitArrayIntoFibonacciSequence.kt" />
-              <option name="questionId" value="872" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1803,14 +1771,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/UniquePaths.kt">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/UniquePaths.kt" />
-              <option name="questionId" value="62" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ValidMountainArray.kt">
           <value>
             <LeetcodeEditor>
@@ -1848,6 +1808,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/VideoStitching.kt" />
               <option name="questionId" value="1081" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/WiggleSubsequence.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/WiggleSubsequence.kt" />
+              <option name="questionId" value="376" />
             </LeetcodeEditor>
           </value>
         </entry>
