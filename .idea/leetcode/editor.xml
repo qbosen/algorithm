@@ -467,6 +467,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FirstUniqueCharacterInAString.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FirstUniqueCharacterInAString.kt" />
+              <option name="questionId" value="387" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FlattenBinaryTreeToLinkedList.kt">
           <value>
             <LeetcodeEditor>
