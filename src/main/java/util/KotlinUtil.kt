@@ -26,6 +26,7 @@ fun String.toListNodeArray(): Array<ListNode?> = IntUtil.parse2DInt2ListNodeArra
 fun String.toTreeNode(): TreeNode = IntUtil.parse1DInt2TreeNode(this)
 // 层序遍历, null压缩
 fun String.toTreeNode2():TreeNode? = IntUtil.parse1DInt2TreeNode2(this)
+fun String.to1DDoubleArray():DoubleArray = CommonUtil.parse(this, DoubleArray::class.java)
 
 fun String.toIndexValUndirectedGraph(): Node {
     val data = IntUtil.parse2DIntArray(this)
