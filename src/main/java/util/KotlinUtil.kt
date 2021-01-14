@@ -24,9 +24,11 @@ fun String.toStringList(): List<String> = StringUtil.parse1DList(this)
 fun String.to2DStringList(): List<List<String>> = StringUtil.parse2DList(this)
 fun String.toListNodeArray(): Array<ListNode?> = IntUtil.parse2DInt2ListNodeArray(this)
 fun String.toTreeNode(): TreeNode = IntUtil.parse1DInt2TreeNode(this)
+
 // 层序遍历, null压缩
-fun String.toTreeNode2():TreeNode? = IntUtil.parse1DInt2TreeNode2(this)
-fun String.to1DDoubleArray():DoubleArray = CommonUtil.parse(this, DoubleArray::class.java)
+fun String.toTreeNode2(): TreeNode? = IntUtil.parse1DInt2TreeNode2(this)
+fun String.to1DDoubleArray(): DoubleArray = CommonUtil.parse(this, DoubleArray::class.java)
+fun String.to1DBooleanArray(): BooleanArray = CommonUtil.parse(this, BooleanArray::class.java)
 
 fun String.toIndexValUndirectedGraph(): Node {
     val data = IntUtil.parse2DIntArray(this)
