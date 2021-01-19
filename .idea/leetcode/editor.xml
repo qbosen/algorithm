@@ -1059,6 +1059,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinCostToConnectAllPoints.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinCostToConnectAllPoints.kt" />
+              <option name="questionId" value="1706" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinStack.kt">
           <value>
             <LeetcodeEditor>
