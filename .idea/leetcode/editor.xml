@@ -1531,6 +1531,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RegionsCutBySlashes.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RegionsCutBySlashes.kt" />
+              <option name="questionId" value="999" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RegularExpressionMatching.kt">
           <value>
             <LeetcodeEditor>
