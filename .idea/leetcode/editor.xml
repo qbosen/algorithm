@@ -947,6 +947,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestRepeatingCharacterReplacement.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestRepeatingCharacterReplacement.kt" />
+              <option name="questionId" value="424" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.kt">
           <value>
             <LeetcodeEditor>
