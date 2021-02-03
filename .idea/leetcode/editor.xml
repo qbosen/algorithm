@@ -1851,6 +1851,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SlidingWindowMedian.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SlidingWindowMedian.kt" />
+              <option name="questionId" value="480" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SmallestRangeCoveringElementsFromKLists.kt">
           <value>
             <LeetcodeEditor>
