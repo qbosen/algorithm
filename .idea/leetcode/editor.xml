@@ -651,6 +651,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GetEqualSubstringsWithinBudget.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GetEqualSubstringsWithinBudget.kt" />
+              <option name="questionId" value="1321" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GroupAnagrams.kt">
           <value>
             <LeetcodeEditor>
