@@ -971,6 +971,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestTurbulentSubarray.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestTurbulentSubarray.kt" />
+              <option name="questionId" value="1020" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LowestCommonAncestorOfABinarySearchTree.kt">
           <value>
             <LeetcodeEditor>
