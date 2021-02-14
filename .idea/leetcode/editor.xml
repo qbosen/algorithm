@@ -395,6 +395,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CouplesHoldingHands.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CouplesHoldingHands.kt" />
+              <option name="questionId" value="770" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CourseSchedule.kt">
           <value>
             <LeetcodeEditor>
@@ -488,6 +496,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FairCandySwap.kt" />
               <option name="questionId" value="924" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindAllNumbersDisappearedInAnArray.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindAllNumbersDisappearedInAnArray.kt" />
+              <option name="questionId" value="448" />
             </LeetcodeEditor>
           </value>
         </entry>
