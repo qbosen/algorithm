@@ -59,6 +59,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ArrayPartitionI.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ArrayPartitionI.kt" />
+              <option name="questionId" value="561" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/AssignCookies.kt">
           <value>
             <LeetcodeEditor>
@@ -1040,6 +1048,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MatrixCellsInDistanceOrder.kt" />
               <option name="questionId" value="1094" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaxConsecutiveOnes.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaxConsecutiveOnes.kt" />
+              <option name="questionId" value="485" />
             </LeetcodeEditor>
           </value>
         </entry>
