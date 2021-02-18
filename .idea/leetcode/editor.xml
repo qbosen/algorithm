@@ -1243,6 +1243,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumNumberOfKConsecutiveBitFlips.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumNumberOfKConsecutiveBitFlips.kt" />
+              <option name="questionId" value="1037" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumPathSum.kt">
           <value>
             <LeetcodeEditor>
