@@ -2203,6 +2203,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ToeplitzMatrix.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ToeplitzMatrix.kt" />
+              <option name="questionId" value="777" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TopKFrequentElements.kt">
           <value>
             <LeetcodeEditor>
