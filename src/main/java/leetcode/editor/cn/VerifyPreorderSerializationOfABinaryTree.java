@@ -7,15 +7,23 @@ public class VerifyPreorderSerializationOfABinaryTree {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isValidSerialization(String preorder) {
-            String[] arr = preorder.split(",");
-            int n = arr.length;
-            if (n == 0) return false;
+            int n = preorder.length();
 
             int count = 1;
-            for (String s : arr) {
+            int i = 0;
+            while (i < n) {
                 if (count == 0) return false;
-                if ("#".equals(s)) count--;
-                else count++;
+                if (preorder.charAt(i) == ',') {
+                    i++;
+                } else if (preorder.charAt(i) == '#') {
+                    count--;
+                    i++;
+                } else {
+                    while (i < n && preorder.charAt(i) != ',') {
+                        i++;
+                    }
+                    count++;
+                }
             }
             return count == 0;
         }
