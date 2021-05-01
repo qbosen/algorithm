@@ -1,8 +1,0 @@
-# Project exclude paths
-/.gradle/
-/build/
-/build/classes/java/main/
-.idea/*
-!.idea/leetcode
-
-/src/main/java/leetcode/editor/cn/doc/
