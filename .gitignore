@@ -8,3 +8,5 @@
 *.json
 
 **/submission
+**/out
+**/build
