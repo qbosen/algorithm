@@ -9,24 +9,27 @@ public class ValidParenthesisString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean checkValidString(String s) {
-            int n = s.length();
-            boolean[][] f = new boolean[n + 1][n + 1];
-            f[0][0] = true;
-            for (int i = 1; i <= n; i++) {
-                char c = s.charAt(i - 1);
-                for (int j = 0; j <= i; j++) {
-                    if (c == '(') {
-                        if (j - 1 >= 0) f[i][j] = f[i - 1][j - 1];
-                    } else if (c == ')') {
-                        if (j + 1 <= i) f[i][j] = f[i - 1][j + 1];
-                    } else {
-                        f[i][j] = f[i - 1][j];
-                        if (j - 1 >= 0) f[i][j] |= f[i - 1][j - 1];
-                        if (j + 1 <= i) f[i][j] |= f[i - 1][j + 1];
-                    }
+            // 评分法
+            int min = 0, max = 0;
+            for (int i = 0; i < s.length(); i++) {
+                char c = s.charAt(i);
+                if (c == '(') {
+                    min++;
+                    max++;
+                } else if (c == ')') {
+                    min--;
+                    max--;
+                } else {
+                    min--;
+                    max++;
                 }
+                // * 不能导致右括号过多
+                if (min < 0) min = 0;
+                // 右括号确实多了
+                if (min > max) return false;
             }
-            return f[n][0];
+
+            return min == 0;
         }
 
     }
