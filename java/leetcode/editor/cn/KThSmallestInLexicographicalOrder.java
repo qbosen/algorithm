@@ -7,14 +7,22 @@ import java.util.*;
 public class KThSmallestInLexicographicalOrder {
     public static void main(String[] args) {
         Solution solution = new KThSmallestInLexicographicalOrder().new Solution();
+        // exp 416126219
+        System.out.println(solution.simulate(681692778, 351251360));
+        System.out.println(solution.recursive(681692778, 351251360));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int findKthNumber(int n, int k) {
+//            return simulate(n, k);
+            return recursive(n, k);
+        }
+        // region simulate
+        public int simulate(int n, int k) {
             int x = 1;
             while (k != 1) {
-                int cnt = getCnt(x, n);
+                 int cnt = getCnt(x, n);
                 if (cnt < k) {
                     x++;
                     k -= cnt;
@@ -25,6 +33,7 @@ public class KThSmallestInLexicographicalOrder {
             }
             return x;
         }
+
 
         static final int[] sizeTable = {9, 99, 999, 9999, 99999, 999999, 9999999, 99999999, 999999999, Integer.MAX_VALUE};
 
@@ -49,6 +58,30 @@ public class KThSmallestInLexicographicalOrder {
                 res += pow;
             }
             return res;
+        }
+        // endregion
+
+        public int recursive(int n, int k) {
+            int x = 1;
+            while (k != 1) {
+                int cnt = (int)dfs(x,x, n);
+                if (cnt < k) {
+                    x++;
+                    k -= cnt;
+                } else {
+                    x *= 10;
+                    k--;
+                }
+            }
+            return x;
+        }
+
+        private long dfs(long l, long r, int n) {
+            if (l > n) {
+                return 0;
+            } else {
+                return Math.min(r, n) - l + 1 + dfs(l * 10, r * 10 + 9, n);
+            }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
